@@ -10,7 +10,7 @@ export const environment = {
   fineractPlatformTenantIds: window['env']['fineractPlatformTenantIds'] || 'default',
   // For connecting to others servers running elsewhere update the base API URL
   baseApiUrls: window['env']['fineractApiUrls'] ||
-  'https://dev.mifos.io,https://demo.mifos.io,https://qa.mifos.io,https://staging.mifos.io,https://mobile.mifos.io,https://demo.fineract.dev,https://localhost:8443',
+  'https://bank.phitec.com.gt,https://localhost:8443',
   // For connecting to server running elsewhere set the base API URL
   baseApiUrl: window['env']['fineractApiUrl'] || 'https://demo.fineract.dev',
   allowServerSwitch: env.allow_switching_backend_instance,
@@ -21,7 +21,7 @@ export const environment = {
     enabled: false,  // For connecting to Mifos X using OAuth2 Authentication change the value to true
     serverUrl: ''
   },
-  defaultLanguage: window['env']['defaultLanguage'] || 'en-US',
+  defaultLanguage: window['env']['defaultLanguage'] || 'es-MX',
   supportedLanguages: window['env']['supportedLanguages'] || 'en-US,es-MX,fr-FR',
   preloadClients: window['env']['preloadClients'] || true,
 
